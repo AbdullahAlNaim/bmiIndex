@@ -4,7 +4,7 @@ body {
 }
 
 #app-body {
-    background-color: rgb(32, 32, 68);
+    background-color: #57737A;
     width: 350px;
     height: 650px;
     margin: auto;
@@ -15,18 +15,21 @@ body {
 
 .inner-sections {
     display: inline;
-
+    background-color: #85BDBF;
 }
 
 input {
     width: 20px;
 }
 
-#gender-section {}
+#gender-section {
+    margin-bottom: 25%;
+}
+
+
 
 #male {
     text-align: center;
-    background-color: rgb(156, 44, 44);
     padding: 75px 75px;
     margin-top: 10px;
     margin-left: 5px;
@@ -40,7 +43,6 @@ input {
 
 #female {
     text-align: center;
-    background-color: rgb(139, 156, 44);
     padding: 75px 75px;
     margin-top: 10px;
     margin-left: 5px;
@@ -53,4 +55,54 @@ input {
     margin-top: 90px;
 }
 
-.feet {}
+.height {
+    height: 50px;
+    margin-top: 45%;
+}
+
+.feet {
+    width: 100%;
+    text-align: center;
+    padding: 75px 33px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.inches {
+    width: 100%;
+    text-align: center;
+    padding: 75px 33px;
+    border-radius: 10px;
+}
+
+.lb-age {
+    margin-top: 36%;
+    width: 98%;
+    margin-left: 5px;
+}
+
+.weigth {
+    width: 100%;
+    text-align: center;
+    padding: 75px 30px;
+    border-radius: 10px;
+}
+
+.age {
+    width: 100%;
+    text-align: center;
+    padding: 75px 53px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#calc {
+    margin-top: 25%;
+    margin-left: 2%;
+    width: 96%;
+    padding: 35px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+}
